@@ -4,7 +4,8 @@ import axios from "axios";
 import { Bounce, toast } from "react-toastify";
 
 const AppState = ({ children }) => {
-  const url = "http://localhost:1111/api";
+  // const url = "http://localhost:1111/api";
+  const url = "https://nitesh-password-manager.onrender.com/api";
   const [user, setUser] = useState("");
   const [isAuth, setIsAuth] = useState();
   const [relod, setRelod] = useState(null);
