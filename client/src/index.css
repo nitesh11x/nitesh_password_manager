@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.quickSand {
+    font-family: "Quicksand", sans-serif;
+}
+body{
+    font-family: "Quicksand", sans-serif;
+
+}
